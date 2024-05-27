@@ -8,6 +8,7 @@
 
 ## Setup
 Our code relies on the [diffusers](https://github.com/huggingface/diffusers) library from Hugging Face 🤗.
+
 Create envrionment:
 ```shell
 cd CAAT
@@ -15,4 +16,26 @@ conda create -n CAAT python=3.8
 conda activate CAAT  
 pip install -r requirements.txt  
 ```
+
 ## Pretrained Model
+Download pretrained checkpoints of Stable Diffusion.
+<table style="width:100%">
+  <tr>
+    <th>Version</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>2.1</td>
+    <td><a href="https://huggingface.co/stabilityai/stable-diffusion-2-1-base">stable-diffusion-2-1-base</a></td>
+  </tr>
+  <tr>
+    <td>1.5</td>
+    <td><a href="https://huggingface.co/runwayml/stable-diffusion-v1-5">stable-diffusion-v1-5</a></td>
+  </tr>
+  <tr>
+    <td>1.4</td>
+    <td><a href="https://huggingface.co/CompVis/stable-diffusion-v1-4">stable-diffusion-v1-4</a></td>
+  </tr>
+</table>
+
+Move it to the model folder
