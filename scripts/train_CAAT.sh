@@ -1,4 +1,4 @@
-export MODEL_NAME="model/YOUR_MODEL_PATH"
+export MODEL_NAME="model/stable-diffusion"
 export OUTPUT_DIR="outputs/1972"
 export INSTANCE_DIR="data/1972"
 
