@@ -1,4 +1,4 @@
-export MODEL_NAME="YOUR MODEL PATH"
+export MODEL_NAME="model/YOUR_MODEL_PATH"
 export OUTPUT_DIR="outputs/1972"
 export INSTANCE_DIR="data/1972"
 export CLASS_DIR='class_data'
