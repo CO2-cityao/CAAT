@@ -1,0 +1,9 @@
+accelerate
+torchvision
+transformers>=4.25.1
+ftfy
+tensorboard
+Jinja2
+torch==1.13.1
+six==1.16.0
+diffusers==0.21.0
