@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## Pretrained Model
-Download pretrained checkpoints of Stable Diffusion.
+Download pretrained checkpoints of Stable Diffusion:
 <table style="width:100%">
   <tr>
     <th>Version</th>
@@ -38,5 +38,12 @@ Download pretrained checkpoints of Stable Diffusion.
   </tr>
 </table>
 
-Move it to the model/
+Move checkpoints folder to the `model/` and rename to `stable-diffusion`:
+```shell
+mv checkpoints_path model/stable-diffusion
+```
 
+## Run
+```bash
+bash scripts/train_CAAT.sh
+```
