@@ -38,4 +38,5 @@ Download pretrained checkpoints of Stable Diffusion.
   </tr>
 </table>
 
-Move it to the model folder
+Move it to the model/
+
